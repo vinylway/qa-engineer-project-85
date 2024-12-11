@@ -8,7 +8,7 @@
   test-data: |
     Логин = vadim.steamship@gmail.com Пароль = Harburg-1976
   steps:
-    - Нажать на кнопку Sign in в правом верхнем углу
+    - Нажать на кнопку Sign in
     - Ввести электронную почту в поле Email после перехода на страницу входа
     - Ввести свой пароль в поле Password
     - Нажать на кнопку Submit
@@ -24,7 +24,7 @@
   test-data: |
     Логин = vadim.steamship@gmail Пароль = Harburg-1976
   steps:
-    - Нажать на кнопку Sign in в правом верхнем углу
+    - Нажать на кнопку Sign in 
     - Ввести электронную почту в поле Email после перехода на страницу входа
     - Ввести свой пароль в поле Password
     - Нажать на кнопку Submit
@@ -40,7 +40,7 @@
   test-data: |
     Логин = vadim.steamship@gmail.com Пароль = Harburg-1985
   steps:
-    - Нажать на кнопку Sign in в правом верхнем углу
+    - Нажать на кнопку Sign in
     - Ввести электронную почту в поле Email после перехода на страницу входа
     - Ввести свой пароль в поле Password
     - Нажать на кнопку Submit
@@ -69,7 +69,7 @@
   test-data: |
     Empty
   steps:
-    - Кликнуть на собственный логин в правом верхнем углу
+    - Кликнуть на собственный логин 
     - Выбрать Settings в открывающемся окне и кликнуть по нему
     - Выбрать звуковое сопровождение из 4 предложенных вариантов
     - Нажать на логотип Codebattle в верхнем левом углу
@@ -91,7 +91,7 @@
   test-data: |
     Empty
   steps:
-    - Кликнуть на собственный логин в правом верхнем углу
+    - Кликнуть на собственный логин 
     - Выбрать Settings в открывающемся окне и кликнуть по нему
     - Кликнуть на поле под Your weapon
     - Выбрать оружие из выпадающего списка
@@ -112,7 +112,7 @@
   test-data: |
     Empty
   steps:
-    - Кликнуть на собственный логин в правом верхнем углу
+    - Кликнуть на собственный логин 
     - Выбрать Users rating в открывающемся окне и кликнуть по нему
     - После перехода на первую страницу с рейтингом пользователей слева в поле Username набрать ник пользователя Fafnir
   expected-result: |
@@ -127,7 +127,7 @@
   test-data: |
     Empty
   steps:
-    - Кликнуть на собственный логин в правом верхнем углу
+    - Кликнуть на собственный логин 
     - Выбрать Users rating в открывающемся окне и кликнуть по нему
     - Сверху по центру страницы выбрать один из требуемых фильтров (weekly, monthly, total)
   expected-result: |
@@ -157,7 +157,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -173,7 +173,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With other user ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -191,7 +191,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a friend ниже надписи Game Type 
     - Под открывшейся надписью Choose opponent нажать на поле фильтра 
@@ -210,7 +210,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a friend ниже надписи Game Type
     - Под открывшейся надписью Choose opponent нажать на поле фильтра 
@@ -274,7 +274,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне ниже надписи Level выбрать уровень сложности новой игры
     - Нажать на кнопку With a bot ниже надписи Game Type
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -290,7 +290,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне ниже надписи Time Control установить время для решения задачи (игры)
     - Нажать на кнопку With a bot ниже надписи Game Type
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -306,7 +306,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне ниже надписи Game Type нажать на кнопку With a friend
     - Под открывшейся надписью Choose opponent нажать на поле фильтра 
     - Выбрать оппонента из предлагаемого списка друзей
@@ -324,7 +324,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне ниже надписи Level выбрать уровень сложности новой игры
     - Под открывшейся надписью Choose task by name or tags нажать на поле фильтра / нажать на популярный тэг
     - Выбрать задание по имени из предлагаемого списка
@@ -342,7 +342,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - Выбрать уровень сложности, оппонента и время контроля в открывшемся окне
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
   expected-result: |
@@ -357,7 +357,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - Выбрать уровень сложности, оппонента и время контроля в открывшемся окне
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
     - Нажать на кнопку Ru
@@ -374,7 +374,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - Выбрать уровень сложности, оппонента и время контроля в открывшемся окне
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
     - Нажать на кнопку Ru
@@ -393,7 +393,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -411,7 +411,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -428,7 +428,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -445,7 +445,7 @@
   test-data: |
     Empty
   steps:
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -464,7 +464,7 @@
   test-data: |
     Empty
   steps: 
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -482,7 +482,7 @@
   test-data: |
     Empty
   steps: 
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level (одна звезда), Time control (3 минуты) и Choose task by name or tags (rect_area)
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -504,7 +504,7 @@
   test-data: |
     Empty
   steps: 
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level (одна звезда), Time control (3 минуты) и Choose task by name or tags (rect_area)
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -524,7 +524,7 @@
   test-data: |
     Empty
   steps: 
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
@@ -541,7 +541,7 @@
   test-data: |
     Браузер Google Chrome Версия 129.0.6668.59 (Официальная сборка), Браузер Mozilla Firefox Version 130.0
   steps: 
-    - Нажать на кнопку Create a game в правом верхнем углу
+    - Нажать на кнопку Create a game 
     - В открывшемся окне выбрать параметры Level, Time control и Choose task by name or tags по умолчанию
     - Нажать на кнопку With a bot ниже надписи Game Type 
     - Нажать на кнопку Create battle в правом нижнем углу открывшегося окна
